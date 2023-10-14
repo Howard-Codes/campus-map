@@ -1,6 +1,7 @@
 {
   "name": "campus-map",
   "version": "0.1.0",
+  "homepage": "https://howard-codes.github.io/campus-map/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
