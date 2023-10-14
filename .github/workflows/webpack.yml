@@ -26,6 +26,6 @@ jobs:
           with:
             folder: build
         - name: Deploy website
-          uses: actions/deploy-pages@v4 # Use this action to deploy the website to GitHub Pages
+          uses: actions/deploy-pages@v2 # Use this action to deploy the website to GitHub Pages
           with:
             token: ${{ secrets.GITHUB_TOKEN }} # Provide a token for authentication
