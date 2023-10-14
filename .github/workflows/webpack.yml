@@ -9,8 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     environment: github-pages
-    permissions:
-      contents: write
+    contents: write
+    pages: write
     steps:
         - uses: actions/checkout@v2
         - name: Use Node.js 14.x
